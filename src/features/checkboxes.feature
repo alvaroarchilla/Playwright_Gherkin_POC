@@ -1,3 +1,4 @@
+﻿@checkboxes
 Feature: Casillas de Verificación
   Como usuario
   Quiero marcar y desmarcar casillas
