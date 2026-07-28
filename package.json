@@ -1,5 +1,6 @@
 {
   "name": "playwright_gherkin_poc",
+
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

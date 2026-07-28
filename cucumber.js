@@ -10,6 +10,7 @@ module.exports = {
             'progress',
             'json:reports/cucumber-results.json' // 👈 Formato correcto
         ],
+
         paths: ['src/features/**/*.feature'],
         dryRun: false,
         strict: true,

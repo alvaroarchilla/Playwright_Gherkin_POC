@@ -11,6 +11,7 @@
         "noEmit": true,
         "types": ["node", "@cucumber/cucumber"]
     },
+
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules", "allure-results", "allure-report"]
 }

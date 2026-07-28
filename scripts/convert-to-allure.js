@@ -19,6 +19,7 @@ if (fs.existsSync(resultsPath)) {
     // Asegurar que es un array
     var features = Array.isArray(results) ? results : [results];
 
+
     features.forEach(function (feature) {
         if (feature.elements && Array.isArray(feature.elements)) {
             feature.elements.forEach(function (scenario) {

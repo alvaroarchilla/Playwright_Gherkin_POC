@@ -1,5 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 
+
 export class DropdownPage {
   readonly page: Page;
   readonly dropdown: Locator;
