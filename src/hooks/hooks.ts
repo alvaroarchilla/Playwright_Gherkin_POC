@@ -6,7 +6,8 @@ let browser: Browser;
 
 Before(async function () {
   if (!browser) {
-    browser = await chromium.launch({ headless: false });
+    const headless = process.env.HEADLESS !== 'false';
+    browser = await chromium.launch({ headless });
   }
   const context = await browser.newContext();
   this.page = await context.newPage();
