@@ -12,6 +12,7 @@
     "convert-allure": "node scripts/convert-to-allure.js",
     "test:allure": "npm test && npm run report",
     "report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "report:ci": "allure generate allure-results --clean -o allure-report",
     "posttest": "node scripts/convert-to-allure.js"
   },
   "keywords": [],
