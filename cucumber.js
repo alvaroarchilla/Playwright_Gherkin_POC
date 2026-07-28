@@ -8,12 +8,9 @@ module.exports = {
         format: [
             'summary',
             'progress',
-            'json:reports/cucumber-results.json' // 👈 Formato correcto
+            'json:reports/cucumber-results.json' // Solo el JSON estándar
         ],
-
-        paths: ['src/features/**/*.feature'],
         dryRun: false,
         strict: true,
     }
-
 };

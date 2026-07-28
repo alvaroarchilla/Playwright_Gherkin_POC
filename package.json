@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf allure-results allure-report reports",
-    "test": "cucumber-js --config cucumber.js && node scripts/convert-to-allure.js",
+    "test": "cucumber-js --config cucumber.js src/features/**/*.feature && node scripts/convert-to-allure.js",
     "test:login": "cucumber-js --config cucumber.js src/features/login.feature",
     "test:dropdown": "cucumber-js --config cucumber.js src/features/dropdown.feature",
     "test:checkboxes": "cucumber-js --config cucumber.js src/features/checkboxes.feature",
     "convert-allure": "node scripts/convert-to-allure.js",
+    "test:allure": "npm test && npm run report",
     "report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
     "posttest": "node scripts/convert-to-allure.js"
   },
