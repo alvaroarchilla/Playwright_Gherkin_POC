@@ -1,0 +1,34 @@
+{
+  "name": "Seleccionar la Opción 2",
+  "status": "unknown",
+  "steps": [
+    {
+      "name": "",
+      "status": "passed",
+      "duration": 310645800
+    },
+    {
+      "name": "que estoy en la página de dropdown",
+      "status": "passed",
+      "duration": 1911817900
+    },
+    {
+      "name": "selecciono \"Option 2\" del dropdown",
+      "status": "passed",
+      "duration": 72450600
+    },
+    {
+      "name": "el dropdown debería tener seleccionado \"Option 2\"",
+      "status": "passed",
+      "duration": 12576599
+    },
+    {
+      "name": "",
+      "status": "passed",
+      "duration": 11321500
+    }
+  ],
+  "duration": 0,
+  "start": 1785200943314,
+  "stop": 1785200943314
+}

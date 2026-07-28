@@ -1,0 +1,314 @@
+[
+  {
+    "description": "  Como usuario\n  Quiero seleccionar una opción de un menú desplegable\n  Para probar la interacción con listas",
+    "elements": [
+      {
+        "description": "",
+        "id": "menú-desplegable;seleccionar-la-opción-1",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Seleccionar la Opción 1",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 682713700
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1991750999
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que estoy en la página de dropdown",
+            "match": {
+              "location": "src\\step-definitions\\dropdown.steps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 83232200
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "selecciono \"Option 1\" del dropdown",
+            "match": {
+              "location": "src\\step-definitions\\dropdown.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7706299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "el dropdown debería tener seleccionado \"Option 1\"",
+            "match": {
+              "location": "src\\step-definitions\\dropdown.steps.ts:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13691399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "menú-desplegable;seleccionar-la-opción-2",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Seleccionar la Opción 2",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 310645800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1911817900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "que estoy en la página de dropdown",
+            "match": {
+              "location": "src\\step-definitions\\dropdown.steps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 72450600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "selecciono \"Option 2\" del dropdown",
+            "match": {
+              "location": "src\\step-definitions\\dropdown.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12576599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "el dropdown debería tener seleccionado \"Option 2\"",
+            "match": {
+              "location": "src\\step-definitions\\dropdown.steps.ts:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11321500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "menú-desplegable",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Menú Desplegable",
+    "tags": [],
+    "uri": "src\\features\\dropdown.feature"
+  },
+  {
+    "description": "  Como usuario registrado\n  Quiero iniciar sesión en la aplicación\n  Para acceder a mi panel de control",
+    "elements": [
+      {
+        "description": "",
+        "id": "inicio-de-sesión;login-exitoso-con-credenciales-válidas",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login exitoso con credenciales válidas",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 339838800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2143625900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que estoy en la página de login",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 438851800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "ingreso el usuario \"tomsmith\" y la contraseña \"SuperSecretPassword!\"",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 209199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "hago clic en el botón \"Login\"",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 40379800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "debería ver un mensaje de éxito que contenga \"You logged into a secure area!\"",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 10227999
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;login-fallido-con-credenciales-inválidas",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login fallido con credenciales inválidas",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 324531600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2136678700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que estoy en la página de login",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 407486400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "ingreso el usuario \"tomsmith\" y la contraseña \"WrongPass\"",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 99599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "hago clic en el botón \"Login\"",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:16"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 38463899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "debería ver un mensaje de error que contenga \"Your password is invalid!\"",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14112800
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "inicio-de-sesión",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Inicio de Sesión",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]

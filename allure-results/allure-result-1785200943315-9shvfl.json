@@ -1,0 +1,39 @@
+{
+  "name": "Login exitoso con credenciales válidas",
+  "status": "unknown",
+  "steps": [
+    {
+      "name": "",
+      "status": "passed",
+      "duration": 339838800
+    },
+    {
+      "name": "que estoy en la página de login",
+      "status": "passed",
+      "duration": 2143625900
+    },
+    {
+      "name": "ingreso el usuario \"tomsmith\" y la contraseña \"SuperSecretPassword!\"",
+      "status": "passed",
+      "duration": 438851800
+    },
+    {
+      "name": "hago clic en el botón \"Login\"",
+      "status": "passed",
+      "duration": 209199
+    },
+    {
+      "name": "debería ver un mensaje de éxito que contenga \"You logged into a secure area!\"",
+      "status": "passed",
+      "duration": 40379800
+    },
+    {
+      "name": "",
+      "status": "passed",
+      "duration": 10227999
+    }
+  ],
+  "duration": 0,
+  "start": 1785200943315,
+  "stop": 1785200943315
+}

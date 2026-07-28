@@ -1,0 +1,39 @@
+{
+  "name": "Login fallido con credenciales inválidas",
+  "status": "unknown",
+  "steps": [
+    {
+      "name": "",
+      "status": "passed",
+      "duration": 324531600
+    },
+    {
+      "name": "que estoy en la página de login",
+      "status": "passed",
+      "duration": 2136678700
+    },
+    {
+      "name": "ingreso el usuario \"tomsmith\" y la contraseña \"WrongPass\"",
+      "status": "passed",
+      "duration": 407486400
+    },
+    {
+      "name": "hago clic en el botón \"Login\"",
+      "status": "passed",
+      "duration": 99599
+    },
+    {
+      "name": "debería ver un mensaje de error que contenga \"Your password is invalid!\"",
+      "status": "passed",
+      "duration": 38463899
+    },
+    {
+      "name": "",
+      "status": "passed",
+      "duration": 14112800
+    }
+  ],
+  "duration": 0,
+  "start": 1785200931382,
+  "stop": 1785200931382
+}
